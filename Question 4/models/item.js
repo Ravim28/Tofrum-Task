@@ -1,14 +1,14 @@
 const mongoose = require('mongoose');
 
 const itemSchema = new mongoose.Schema({
-    name: {
+    firstname: {
         type: String,
         required: true,
     },
-    description: {
+    surname: {
         type: String,
     },
-    price: {
+    city: {
         type: String,
         required: true,
     },
